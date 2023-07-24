@@ -1,0 +1,66 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import Header from "./Component/Header.jsx";
+import Slider from "./Component/slider";
+import Cards from "./Component/Cards";
+import Footer from "./Component/Footer";
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import AboutUs from "./Component/Footer Component/AboutUs";
+import App from "./App";
+import Contact from "./Component/Footer Component/Contact";
+import Help from "./Component/Footer Component/Help";
+import TermsCondition from "./Component/Footer Component/Terms&Condition";
+import PrivacyPolicy from "./Component/Footer Component/PrivacyPolicy";
+import TrackOrder from "./Component/header Component/TrackOrder";
+import Team from "./Component/header Component/Team";
+import Cart from "./Component/header Component/Cart";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App />,
+    children: [
+      {
+        path: "/",
+        element: <Cards />,
+      },
+      {
+        path: "/about",
+        element: <AboutUs />,
+      },
+      {
+        path: "/contact",
+        element: <Contact />,
+      },
+      {
+        path: "/help",
+        element: <Help />,
+      },
+      {
+        path: "/t&c",
+        element: <TermsCondition />,
+      },
+      {
+        path: "/privacy-policy",
+        element: <PrivacyPolicy />,
+      },
+      {
+        path: "/track-order",
+        element: <TrackOrder />,
+      },
+      {
+        path: "/link",
+        element: <Team />,
+      },
+      {
+        path: "/cart",
+        element: <Cart />,
+      },
+    ],
+  },
+]);
+
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <RouterProvider router={router} />
+);
