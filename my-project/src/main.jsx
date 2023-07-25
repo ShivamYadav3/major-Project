@@ -15,6 +15,7 @@ import PrivacyPolicy from "./Component/Footer Component/PrivacyPolicy";
 import TrackOrder from "./Component/header Component/TrackOrder";
 import Team from "./Component/header Component/Team";
 import Cart from "./Component/header Component/Cart";
+import PartnerLoginForm from "./Component/header Component/PartnerLoginForm/PartnerLoginForm";
 
 const router = createBrowserRouter([
   {
@@ -56,6 +57,10 @@ const router = createBrowserRouter([
       {
         path: "/cart",
         element: <Cart />,
+      },
+      {
+        path: "/partnerLoginForm",
+        element: <PartnerLoginForm />,
       },
     ],
   },
