@@ -60,7 +60,7 @@ export const saloon = [
   export const RepairsAndMaintenance = [
     {
       id: 1,
-      title: "electrician",
+      title: "Electrician",
       image:
         "https://www.shutterstock.com/image-photo/smiling-handsome-electrician-repairing-electrical-260nw-1192486423.jpg",
       Price: "\u20B9 100",

@@ -18,7 +18,7 @@ const Slider = () => {
         <img
           src={images[currentImage]}
           alt="Slider"
-          className="h-80 w-full object-contain"
+          className="h-80 w-full object-cover"
         />
       </div>
     </div>

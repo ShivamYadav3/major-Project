@@ -16,6 +16,7 @@ import TrackOrder from "./Component/header Component/TrackOrder";
 import Team from "./Component/header Component/Team";
 import Cart from "./Component/header Component/Cart";
 import PartnerLoginForm from "./Component/header Component/PartnerLoginForm/PartnerLoginForm";
+import { SignUp } from "./Component/header Component/SignUp";
 
 const router = createBrowserRouter([
   {
@@ -61,6 +62,10 @@ const router = createBrowserRouter([
       {
         path: "/partnerLoginForm",
         element: <PartnerLoginForm />,
+      },
+      {
+        path: "/sign-up",
+        element: <SignUp />,
       },
     ],
   },
