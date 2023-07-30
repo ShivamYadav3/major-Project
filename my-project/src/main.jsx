@@ -17,6 +17,7 @@ import Team from "./Component/header Component/Team";
 import Cart from "./Component/header Component/Cart";
 import PartnerLoginForm from "./Component/header Component/PartnerLoginForm/PartnerLoginForm";
 import { SignUp } from "./Component/header Component/SignUp";
+import ProductDetails from "./Component/Body/ProductDetails";
 
 const router = createBrowserRouter([
   {
@@ -66,6 +67,10 @@ const router = createBrowserRouter([
       {
         path: "/sign-up",
         element: <SignUp />,
+      },
+      {
+        path: "product-details/:meraProductId",
+        element: <ProductDetails />,
       },
     ],
   },

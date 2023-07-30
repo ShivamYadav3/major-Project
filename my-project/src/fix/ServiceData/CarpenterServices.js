@@ -9,7 +9,7 @@ export let CarpenterServices = {
         description: "Repair and restoration of furniture.",
         price: 80,
         currency: "USD",
-        image_url: "https://example.com/furniture-repair.jpg",
+        image_url: "https://media.istockphoto.com/id/1292302301/photo/craftsman-reupholstering-chair-in-workshop.jpg?s=612x612&w=0&k=20&c=K1HBPNVgsSpA674V3kYfWYGVeXDCfmkOy0A8HqhaECc=",
       },
       {
         service_id: "102",
@@ -17,7 +17,7 @@ export let CarpenterServices = {
         description: "Creation of custom-made furniture.",
         price: 200,
         currency: "USD",
-        image_url: "https://example.com/custom-furniture.jpg",
+        image_url: "https://media.architecturaldigest.com/photos/5b6b45846f48c85479ae400c/16:9/w_2560%2Cc_limit/calivintage_campaignpillows.jpg",
       },
       {
         service_id: "103",
@@ -25,7 +25,7 @@ export let CarpenterServices = {
         description: "Design and installation of cabinets.",
         price: 150,
         currency: "USD",
-        image_url: "https://example.com/cabinetry.jpg",
+        image_url: "https://media.gettyimages.com/id/1254400064/photo/domestic-kitchen.jpg?s=612x612&w=gi&k=20&c=m-iQdMY6g2DqX7eJ7NwUrwQ3RYOYVzvMs9jpuy3qdeg=",
       },
       {
         service_id: "201",
@@ -33,7 +33,7 @@ export let CarpenterServices = {
         description: "Repair and installation of doors and windows.",
         price: 100,
         currency: "USD",
-        image_url: "https://example.com/door-window-repair.jpg",
+        image_url: "https://cdn.mrright.in/cdn/content/assets/2015-11/small/de37da3bcfc34f9b8af34badfdc0dee2-door%20or%20window%20repair%20.jpg?sv=2020-04-08&si=MrRightCDNAccessPolicy&sr=c&sig=%2B6fs9xgu5wLh9HEJ0lNaoOt8HIH6CHQYpw5F0vISsdk%3D",
       },
       {
         service_id: "202",
@@ -41,7 +41,7 @@ export let CarpenterServices = {
         description: "Construction and repair of decks and patios.",
         price: 300,
         currency: "USD",
-        image_url: "https://example.com/deck-patio-construction.jpg",
+        image_url: "https://east-coast-renovations.com/wp-content/uploads/2016/02/Deck-and-Patio-Construction.jpg",
       },
       {
         service_id: "203",
@@ -49,7 +49,7 @@ export let CarpenterServices = {
         description: "Installation of shelves and storage solutions.",
         price: 70,
         currency: "USD",
-        image_url: "https://example.com/shelving-storage.jpg",
+        image_url: "https://www.ana-white.com/sites/default/files/diy%20garage%20shelving04_0.jpg",
       },
       {
         service_id: "301",
@@ -57,7 +57,7 @@ export let CarpenterServices = {
         description: "Framing for walls and structures.",
         price: 120,
         currency: "USD",
-        image_url: "https://example.com/framing.jpg",
+        image_url: "https://www.buildmyowncabin.com/framing/standing-wall.jpg",
       },
       {
         service_id: "302",
@@ -65,7 +65,7 @@ export let CarpenterServices = {
         description: "Installation and repair of wooden flooring.",
         price: 180,
         currency: "USD",
-        image_url: "https://example.com/wooden-flooring.jpg",
+        image_url: "https://5.imimg.com/data5/KR/LL/WE/SELLER-70874002/wooden-flooring.jpg",
       },
       {
         service_id: "303",
@@ -73,7 +73,7 @@ export let CarpenterServices = {
         description: "Design and repair of staircases.",
         price: 250,
         currency: "USD",
-        image_url: "https://example.com/staircase-design-repair.jpg",
+        image_url: "https://s42814.pcdn.co/wp-content/uploads/2020/08/iStock_1047941552-1-scaled.jpg.optimal.jpg",
       },
     ],
   };

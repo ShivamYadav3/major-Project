@@ -1,7 +1,11 @@
 import React from "react";
+import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
+import store from "../fix/store";
 
 const Header = () => {
+  const cartItems = useSelector((store) => store.cart.items);
+
   return (
     <div className="flex mix-blend-color text-lg justify-between px-4 py-3 border text-center items-center">
       <div className="logo w-[100px]">
@@ -39,7 +43,7 @@ const Header = () => {
       <div>
         <Link to="/cart">
           <button className="py-1 px-2 rounded-lg hover:text-sky-500">
-            Cart
+            Cart-{cartItems.length}
           </button>
         </Link>
       </div>

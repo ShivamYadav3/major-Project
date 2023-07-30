@@ -5,6 +5,7 @@ export const saloon = [
       image:
         "https://media.gettyimages.com/id/514646438/photo/portrait-of-bearded-man-trimming-his-beard.jpg?s=612x612&w=gi&k=20&c=rTfIgVOZNBqTMM2v6xazDuR6JlN1EvWQtqCwLH_VAPY=",
       Price: "\u20B9 100",
+      inner:"HairSalon",
     },
     {
       id: 2,
@@ -12,6 +13,7 @@ export const saloon = [
       image:
         "https://t3.ftcdn.net/jpg/04/22/50/10/360_F_422501065_iKBL7qoOhaXqjxONodvSnGmuuwkt7pbf.jpg",
       Price: "\u20B9 100",
+      inner:"WomensSalon",
     },
     {
       id: 3,
@@ -19,6 +21,7 @@ export const saloon = [
       image:
         "https://www.shutterstock.com/image-photo/closeup-man-woman-bathroom-applying-260nw-570977905.jpg",
       Price: "\u20B9 100",
+      inner:"MassageCare",
     },
   ];
   export const HomeCleaningServices = [
@@ -28,6 +31,7 @@ export const saloon = [
       image:
         "https://img.freepik.com/premium-photo/laundry-basket-blurred-background-modern-washing-machine_488220-17518.jpg",
       Price: "\u20B9 100",
+      inner:"LaundryServices",
     },
     {
       id: 2,
@@ -35,6 +39,7 @@ export const saloon = [
       image:
         "https://images.unsplash.com/photo-1541123437800-1bb1317badc2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG91c2UlMjBjbGVhbmluZ3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60",
       Price: "\u20B9 100",
+      inner:"HomeCleaningServices",
     },
     {
       id: 3,
@@ -42,12 +47,14 @@ export const saloon = [
       image:
         "https://promkraftinterior.com/wp-content/uploads/2021/11/kitchen-cleaning.jpg",
       Price: "\u20B9 100",
+      inner:"HomeCleaningServices",
     },
     {
       id: 4,
       title: "Bathroom Cleaning",
       image: "https://mygate.com/wp-content/uploads/2023/03/31_bath-scaled.jpg",
       Price: "\u20B9 100",
+      inner:"HomeCleaningServices",
     },
     {
       id: 5,
@@ -55,6 +62,7 @@ export const saloon = [
       image:
         "https://media.istockphoto.com/id/1153949168/vector/set-of-pest-control-concept-or-prohibited-insect-isolated.jpg?s=612x612&w=0&k=20&c=xj_ZADoBVOfsjk2zMd6mViytWDko2h9GMQlhesE0ziE=",
       Price: "\u20B9 100",
+      inner:"PestControlServices",
     },
   ]
   export const RepairsAndMaintenance = [
@@ -64,6 +72,7 @@ export const saloon = [
       image:
         "https://www.shutterstock.com/image-photo/smiling-handsome-electrician-repairing-electrical-260nw-1192486423.jpg",
       Price: "\u20B9 100",
+      inner:"ElectronicItems",
     },
     {
       id: 2,
@@ -71,6 +80,7 @@ export const saloon = [
       image:
         "https://media.istockphoto.com/id/1341381755/photo/plumber-fixing-pipe-in-bathroom-plumbing-maintenance.webp?b=1&s=170667a&w=0&k=20&c=pTBDiFmi1GkdkWg_cXq6RmJtmtqUXyyT77pIZk4qNU8=",
       Price: "\u20B9 100",
+      inner:"Plumber",
     },
     {
       id: 3,
@@ -78,6 +88,7 @@ export const saloon = [
       image:
         "https://st2.depositphotos.com/1158045/5432/i/450/depositphotos_54320635-stock-photo-mechanic-working-on-car-engine.jpg",
       Price: "\u20B9 100",
+      inner:"MechanicServices",
     },
     {
       id: 4,
@@ -85,6 +96,7 @@ export const saloon = [
       image:
         "https://empire-s3-production.bobvila.com/articles/wp-content/uploads/2019/05/Why_Do_Painters_Wear_White.jpg",
       Price: "\u20B9 100",
+      inner:"HousePaintingServices",
     },
     {
       id: 5,
@@ -92,6 +104,7 @@ export const saloon = [
       image:
         "https://media.istockphoto.com/id/1458711335/photo/male-wood-furniture-joiner-work-in-diy-wooden-workshop-real-authentic-people-worker.webp?b=1&s=170667a&w=0&k=20&c=MYhOSwYt7QwT4c8gBp3lCZZMje4r3QydPKFx4zBN2mI=",
       Price: "\u20B9 100",
+      inner:"CarpenterServices",
     },
   ]
 

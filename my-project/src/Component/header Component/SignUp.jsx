@@ -16,9 +16,6 @@ export function SignUp() {
               type="text"
               placeholder="Shivam"
             />
-            {/* <p class="text-red-500 text-xs italic">
-              Please fill out this field.
-            </p> */}
           </div>
           <div class="w-full md:w-1/2 px-3">
             <label
