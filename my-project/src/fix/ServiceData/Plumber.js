@@ -1,77 +1,71 @@
 export let Plumber = {
   service_id: "1",
   service_name: "Plumbing",
-  description:
-    "Professional plumbing services for residential and commercial clients.",
-
+  description: "Professional plumbing services for residential and commercial clients.",
   service_categories: [
-  
     {
-      service_id: "101",
+      service_id: 350,
       service_name: "Fixing Leaks",
+      description: "Repair and fixing of plumbing leaks.",
       price: 50,
       currency: "USD",
-      image_url:
-        "https://www.armorplumbing.net/wp-content/uploads/2021/12/cost-to-repair-a-plumbing-leak-.jpg",
+      image_url: "https://www.armorplumbing.net/wp-content/uploads/2021/12/cost-to-repair-a-plumbing-leak-.jpg",
     },
     {
-      service_id: "102",
+      service_id: 351,
       service_name: "Repairing Burst Pipes",
+      description: "Repairing burst or damaged pipes.",
       price: 100,
       currency: "USD",
-      image_url:
-        "https://www.acrplumbingandheating.ie/wp-content/uploads/2015/01/burst-pipes-.jpg",
+      image_url: "https://www.acrplumbingandheating.ie/wp-content/uploads/2015/01/burst-pipes-.jpg",
     },
     {
-      service_id: "103",
+      service_id: 352,
       service_name: "Replacing Plumbing Lines",
+      description: "Replacement of plumbing lines for improved functionality.",
       price: 150,
       currency: "USD",
-      image_url:
-        "https://cleanline-plumbing-winnipeg.s3.amazonaws.com/Should+I+Replace+My+Plumbing.jpg",
+      image_url: "https://cleanline-plumbing-winnipeg.s3.amazonaws.com/Should+I+Replace+My+Plumbing.jpg",
     },
-  
     {
-      service_id: "201",
+      service_id: 353,
       service_name: "Drain Unclogging",
+      description: "Clearing clogged drains for proper water flow.",
       price: 70,
       currency: "USD",
-      image_url:
-        "https://media.istockphoto.com/id/1290231775/photo/the-plumber-removes-the-blockage-in-the-pipes.jpg?s=612x612&w=0&k=20&c=kb3yrwFsQX6AGf9ivJ_YSOPF7_5qkzkWKkxn_A09LJc=",
+      image_url: "https://media.istockphoto.com/id/1290231775/photo/the-plumber-removes-the-blockage-in-the-pipes.jpg?s=612x612&w=0&k=20&c=kb3yrwFsQX6AGf9ivJ_YSOPF7_5qkzkWKkxn_A09LJc=",
     },
     {
-      service_id: "202",
+      service_id: 354,
       service_name: "Sewer Line Cleaning",
+      description: "Thorough cleaning of sewer lines to prevent blockages.",
       price: 120,
       currency: "USD",
-      image_url:
-        "https://www.jetblast.com/wp-content/uploads/2021/04/storm-drain-cleaning-2.jpg",
+      image_url: "https://www.jetblast.com/wp-content/uploads/2021/04/storm-drain-cleaning-2.jpg",
     },
-    
     {
-      service_id: "301",
+      service_id: 355,
       service_name: "Faucet Installation",
+      description: "Professional installation of faucets.",
       price: 40,
       currency: "USD",
-      image_url:
-        "https://www.mechanicalmastersinc.com/wp-content/uploads/2021/03/Dismantling-a-Faucet.jpg",
+      image_url: "https://www.mechanicalmastersinc.com/wp-content/uploads/2021/03/Dismantling-a-Faucet.jpg",
     },
     {
-      service_id: "302",
+      service_id: 356,
       service_name: "Sink Installation",
+      description: "Installation of sinks in kitchens and bathrooms.",
       price: 60,
       currency: "USD",
-      image_url:
-        "https://www.bristol-plumbing-services.co.uk/img/services/kitchen-sink-installation-bristol.jpg",
+      image_url: "https://www.bristol-plumbing-services.co.uk/img/services/kitchen-sink-installation-bristol.jpg",
     },
     {
-      service_id: "303",
+      service_id: 357,
       service_name: "Toilet Replacement",
+      description: "Professional replacement of toilets.",
       price: 100,
       currency: "USD",
-      image_url:
-        "https://www.wpsexpert.com/wp-content/uploads/2020/03/toilet-repair.jpg",
+      image_url: "https://www.wpsexpert.com/wp-content/uploads/2020/03/toilet-repair.jpg",
     },
   ],
-  
 };

@@ -1,84 +1,84 @@
 export let HairSalon = {
   service_id: "4",
   service_name: "Hair Salon",
-  description:
-    "Expert hair care services in a relaxing and friendly atmosphere.",
+  description: "Expert hair care services in a relaxing and friendly atmosphere.",
   service_categories: [
     {
-      service_id: "101",
+      service_id: 150,
       service_name: "Haircut",
+      description: "Expert haircuts for a fresh and stylish look.",
       price: 30,
       currency: "USD",
       category_name: "Haircuts",
-      image_url:
-        "https://img.freepik.com/premium-photo/young-man-with-trendy-haircut-barber-shop-barber-does-hairstyle-beard-trim_179755-8607.jpg",
+      image_url: "https://img.freepik.com/premium-photo/young-man-with-trendy-haircut-barber-shop-barber-does-hairstyle-beard-trim_179755-8607.jpg",
     },
     {
-      service_id: "102",
+      service_id: 151,
       service_name: "Hair Color",
+      description: "Stylish hair coloring to match your personality.",
       price: 70,
       currency: "USD",
       category_name: "Hair Color",
-      image_url:
-        "https://sinimangatt.com/cdn/shop/articles/Balayage_Hair_Coloring_at_Sinima_Salon_1800x.png?v=1606385054",
+      image_url: "https://sinimangatt.com/cdn/shop/articles/Balayage_Hair_Coloring_at_Sinima_Salon_1800x.png?v=1606385054",
     },
     {
-      service_id: "103",
+      service_id: 152,
       service_name: "Highlights",
+      description: "Add vibrancy to your hair with stunning highlights.",
       price: 80,
       currency: "USD",
       category_name: "Hair Color",
-      image_url:
-        "https://files.myglamm.com/site-images/original/Into-The-Blue-highlights.png",
+      image_url: "https://files.myglamm.com/site-images/original/Into-The-Blue-highlights.png",
     },
     {
-      service_id: "201",
+      service_id: 153,
       service_name: "Facial",
+      description: "Revitalize your skin with a refreshing facial treatment.",
       price: 50,
       currency: "USD",
       category_name: "Facials",
-      image_url:
-        "https://images.squarespace-cdn.com/content/v1/5d6b3013248be40001de4764/1567588578206-MZRQS3F3PRZJ9AZA2103/get-a-facial.png",
+      image_url: "https://images.squarespace-cdn.com/content/v1/5d6b3013248be40001de4764/1567588578206-MZRQS3F3PRZJ9AZA2103/get-a-facial.png",
     },
     {
-      service_id: "202",
+      service_id: 154,
       service_name: "Chemical Peel",
+      description: "Restore your skin's radiance with a chemical peel.",
       price: 100,
       currency: "USD",
       category_name: "Facials",
-      image_url:
-        "https://www.skinvitality.ca/wp-content/uploads/2021/06/Glycolic-peel-before-and-after-6.jpg.webp",
+      image_url: "https://www.skinvitality.ca/wp-content/uploads/2021/06/Glycolic-peel-before-and-after-6.jpg.webp",
     },
     {
-      service_id: "203",
+      service_id: 155,
       service_name: "Microdermabrasion",
+      description: "Renew your skin with microdermabrasion treatment.",
       price: 120,
       currency: "USD",
       category_name: "Facials",
-      image_url:
-        "https://myskinph.com/wp-content/uploads/2019/03/Microdermabrasion-vs-Chemical-Peel.jpg",
+      image_url: "https://myskinph.com/wp-content/uploads/2019/03/Microdermabrasion-vs-Chemical-Peel.jpg",
     },
     {
-      service_id: "301",
+      service_id: 156,
       service_name: "Manicure",
+      description: "Get beautiful nails with a professional manicure.",
       price: 25,
       currency: "USD",
       category_name: "Nails",
-      image_url:
-        "https://hips.hearstapps.com/hmg-prod/images/manicure-1623875537.png?crop=0.502xw:1.00xh;0.0867xw,0&resize=1200:*",
+      image_url: "https://hips.hearstapps.com/hmg-prod/images/manicure-1623875537.png?crop=0.502xw:1.00xh;0.0867xw,0&resize=1200:*",
     },
     {
-      service_id: "302",
+      service_id: 157,
       service_name: "Pedicure",
+      description: "Relax and pamper your feet with a rejuvenating pedicure.",
       price: 30,
       currency: "USD",
       category_name: "Nails",
-      image_url:
-        "https://naturatermospa.com/wp-content/uploads/2019/10/image-95.jpeg",
+      image_url: "https://naturatermospa.com/wp-content/uploads/2019/10/image-95.jpeg",
     },
     {
-      service_id: "303",
+      service_id: 158,
       service_name: "Gel Nail Extensions",
+      description: "Get long-lasting and stylish gel nail extensions.",
       price: 50,
       currency: "USD",
       category_name: "Nails",
@@ -87,66 +87,66 @@ export let HairSalon = {
   ],
 };
 
+
 // export let SkinCare = {
 //   service_id: "5",
 //   service_name: "Skin Care",
-//   description:
-//     "Revitalizing skin care treatments to enhance your natural beauty.",
+//   description: "Revitalizing skin care treatments to enhance your natural beauty.",
 //   service_categories: [
 //     {
-//       service_id: "201",
+//       service_id: 180,
 //       service_name: "Acne Treatment",
+//       description: "Effective acne treatment for clear and healthy skin.",
 //       price: 70,
 //       currency: "USD",
 //       category_name: "Skin Treatments",
-//       image_url:
-//         "https://5.imimg.com/data5/KL/RJ/GLADMIN-18168926/acne-treatment-500x500.png",
+//       image_url: "https://5.imimg.com/data5/KL/RJ/GLADMIN-18168926/acne-treatment-500x500.png",
 //     },
 //     {
-//       service_id: "202",
+//       service_id: 181,
 //       service_name: "Anti-Aging Treatment",
+//       description: "Reduce signs of aging with our advanced treatments.",
 //       price: 120,
 //       currency: "USD",
 //       category_name: "Skin Treatments",
-//       image_url:
-//         "https://www.cozmoderm.com/wp-content/uploads/2022/06/anti-aging-treatment.jpg",
+//       image_url: "https://www.cozmoderm.com/wp-content/uploads/2022/06/anti-aging-treatment.jpg",
 //     },
 //     {
-//       service_id: "203",
+//       service_id: 182,
 //       service_name: "Hydrating Facial",
+//       description: "Nourishing facial to hydrate and refresh your skin.",
 //       price: 60,
 //       currency: "USD",
 //       category_name: "Skin Treatments",
-
-//       image_url:
-//         "https://pureandsimple.ca/cdn/shop/products/Pure_Simple-Super-Hydrating-Facial-1000px_grande.jpg?v=1600444895",
+//       image_url: "https://pureandsimple.ca/cdn/shop/products/Pure_Simple-Super-Hydrating-Facial-1000px_grande.jpg?v=1600444895",
 //     },
 //     {
-//       service_id: "301",
+//       service_id: 183,
 //       service_name: "Eyebrow Shaping",
+//       description: "Precise eyebrow shaping to frame your face beautifully.",
 //       price: 20,
 //       currency: "USD",
 //       category_name: "Beauty Enhancements",
-//       image_url:
-//         " https://thefollicleclinic.com/wp-content/uploads/2021/12/ProfessionaleyebrowshapinginNaplesFL-1.jpg",
+//       image_url: "https://thefollicleclinic.com/wp-content/uploads/2021/12/ProfessionaleyebrowshapinginNaplesFL-1.jpg",
 //     },
 //     {
-//       service_id: "302",
+//       service_id: 184,
 //       service_name: "Eyelash Extensions",
+//       description: "Enhance your eyes with long and voluminous eyelashes.",
 //       price: 80,
 //       currency: "USD",
 //       category_name: "Beauty Enhancements",
-//       image_url:
-//         "https://www.pmuhub.com/wp-content/uploads/2021/07/eyelash-extensions-the-ultimate-guide.jpg",
+//       image_url: "https://www.pmuhub.com/wp-content/uploads/2021/07/eyelash-extensions-the-ultimate-guide.jpg",
 //     },
 //     {
-//       service_id: "303",
+//       service_id: 185,
 //       service_name: "Makeup Application",
+//       description: "Professional makeup application for any occasion.",
 //       price: 50,
 //       currency: "USD",
 //       category_name: "Beauty Enhancements",
-//       image_url:
-//         "https://www.qcmakeupacademy.com/wp-content/uploads/2022/04/Careers-in-makeup-artistry-Feature-Image.jpg",
+//       image_url: "https://www.qcmakeupacademy.com/wp-content/uploads/2022/04/Careers-in-makeup-artistry-Feature-Image.jpg",
 //     },
 //   ],
 // };
+
