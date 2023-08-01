@@ -19,6 +19,7 @@ import PartnerLoginForm from "./Component/header Component/PartnerLoginForm/Part
 import  SignUp  from "./Component/header Component/SignUp";
 import ProductDetails from "./Component/Body/ProductDetails";
 import UserLogin from "./Component/header Component/UserLogin";
+import Logout from "./Component/header Component/Logout";
 
 const router = createBrowserRouter([
   {
@@ -72,6 +73,10 @@ const router = createBrowserRouter([
       {
         path: "/UserLogin",
         element: <UserLogin />,
+      },
+      {
+        path: "/Logout",
+        element: <Logout />,
       },
       {
         path: "product-details/:meraProductId",
