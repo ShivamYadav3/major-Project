@@ -1,18 +1,12 @@
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 
-
 const Header = () => {
-
   const cartItems = useSelector((store) => store.cart.items);
   const isLogin = useSelector((state) => state.auth.isLogin);
-  // const userUniqueId = useSelector((state) => state.auth.userUniqueId); //userUnique id when creating account
-  const userName = useSelector((state) => state.auth.userName);   //user name = Shankar sahu  string
-  const firstName =userName ?  userName.trim().split(" ")[0][0]: ""  // putting this condition for avoiding initial undefined , extracting first name or first latter
-  // console.log(userName)
-  // console.log(typeof userName)
+  const userName = useSelector((state) => state.auth.userName);
+  const firstName = userName ? userName.trim().split(" ")[0][0] : "";
 
-//  console.log(isLogin)
   return (
     <div className="flex mix-blend-color text-lg justify-between px-4 py-3 border text-center items-center">
       <div className="logo w-[100px]">
@@ -56,18 +50,24 @@ const Header = () => {
       </div>
 
       <div>
-       {isLogin? <Link to="/Logout">
-
-       <abbr  title="Logout" className="relative inline-flex items-center justify-center w-10 h-10 overflow-hidden bg-gray-100 rounded-full dark:bg-gray-600">
-    <span className="font-medium text-gray-600 dark:text-gray-300">{firstName}</span>
-</abbr>
-       </Link> 
-               : 
-       <Link to="/sign-up">
-          <button className="py-1 px-2 rounded-lg hover:text-sky-500">
-          Sign-Up
-          </button>
-        </Link>}
+        {isLogin ? (
+          <Link to="/Logout">
+            <abbr
+              title="Logout"
+              className="relative inline-flex items-center justify-center w-10 h-10 overflow-hidden bg-gray-100 rounded-full dark:bg-gray-600"
+            >
+              <span className="font-medium text-gray-600 dark:text-gray-300">
+                {firstName}
+              </span>
+            </abbr>
+          </Link>
+        ) : (
+          <Link to="/sign-up">
+            <button className="py-1 px-2 rounded-lg hover:text-sky-500">
+              Sign-Up
+            </button>
+          </Link>
+        )}
       </div>
     </div>
   );

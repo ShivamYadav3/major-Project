@@ -1,4 +1,3 @@
-// import React from 'react'
 import { getAuth, signOut } from "firebase/auth";
 import { app } from "../../firebaseConfig/firebaseConfiguration";
 import { setIsLogin } from "./PartnerLoginForm/UserLoginSlice";
