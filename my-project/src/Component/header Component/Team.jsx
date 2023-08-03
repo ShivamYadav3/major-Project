@@ -5,7 +5,7 @@ import { TeamData } from "../../fix/TeamData";
 function Team() {
   const [Data] = useState(TeamData);
   return (
-    <div className="flex items-center justify-center gap-2.5">
+    <div className="flex items-center justify-around gap-2.5 h-[523px]">
       {Data.map((items) => {
         return (
           <div

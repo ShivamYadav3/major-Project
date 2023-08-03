@@ -9,16 +9,20 @@ function PageLayout({ Product }) {
   };
 
   return (
-    <div className="flex flex-col gap-8">
+    <div className="flex flex-col gap-8 p-10">
       {Product.service_categories.map((item, index) => {
         return (
-          <div key={index} className="border flex flex-col gap-2">
-            <div>{index + 1}</div>
-            <div>{item.service_name}</div>
-            <div>{item.description}</div>
-            <div>{item.price}</div>
-            <div>
-              <img src={item.image_url} alt="" className="h-40 w-40" />
+          <div key={index} className="border flex flex-col gap-2 p-5 ">
+            <div className="flex gap-8">
+              <div>
+                <div>{index + 1}</div>
+                <div>service - {item.service_name}</div>
+                <div>Description - {item.description}</div>
+                <div>Price - {item.price}</div>
+              </div>
+              <div>
+                <img src={item.image_url} alt="" className="h-40 w-40" />
+              </div>
             </div>
             <div>
               <button

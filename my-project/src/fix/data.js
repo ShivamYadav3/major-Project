@@ -3,13 +3,13 @@ export const saloon = [
       id: 1,
       title: "saloon for Men",
       image:
-        "https://media.gettyimages.com/id/514646438/photo/portrait-of-bearded-man-trimming-his-beard.jpg?s=612x612&w=gi&k=20&c=rTfIgVOZNBqTMM2v6xazDuR6JlN1EvWQtqCwLH_VAPY=",
+        "https://img.freepik.com/free-photo/handsome-man-cutting-beard-barber-shop-salon_1303-20931.jpg",
       Price: "\u20B9 100",
       inner:"HairSalon",
     },
     {
       id: 2,
-      title: "saloon for woman",
+      title: "saloon for Women",
       image:
         "https://t3.ftcdn.net/jpg/04/22/50/10/360_F_422501065_iKBL7qoOhaXqjxONodvSnGmuuwkt7pbf.jpg",
       Price: "\u20B9 100",

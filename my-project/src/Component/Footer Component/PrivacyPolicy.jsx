@@ -2,7 +2,7 @@ import React from "react";
 
 function PrivacyPolicy() {
   return (
-    <div className=" flex items-center justify-center border">
+    <div className=" h-[523px] flex items-center justify-center border">
       <div className=" flex flex-col gap-y-10 font-bold text-4xl">
         <div>Your Privacy Is our Privacy</div>
         <p className="text-base text-lime-950">

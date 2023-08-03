@@ -2,7 +2,7 @@ import React from "react";
 
 function TrackOrder() {
   return (
-    <div className="h-80 flex items-center justify-center border">
+    <div className="flex items-center justify-center border h-[523px]">
       <div className=" flex flex-col gap-y-10">
         <div>
           <label htmlFor="" className="text-2xl">

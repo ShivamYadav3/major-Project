@@ -1,6 +1,6 @@
 function PartnerLoginForm() {
   return (
-    <div className="flex justify-center items-center">
+    <div className="flex justify-center items-center h-[523px]">
       <div className="w-full max-w-xs">
         <form className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
           <div className="mb-4">

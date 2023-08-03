@@ -17,10 +17,14 @@ function ProductDetails() {
   const { meraProductId } = useParams();
 
   const data = eval(meraProductId);
+  console.log(data);
 
   return (
-    <div>
-      <PageLayout Product={data} />
+    <div className="flex flex-col justify-center items-center mt-8">
+      <div className="text-2xl font-bold">{data.service_name}</div>
+      <div>
+        <PageLayout Product={data} />
+      </div>
     </div>
   );
 }
