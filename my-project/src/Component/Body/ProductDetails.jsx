@@ -17,7 +17,6 @@ function ProductDetails() {
   const { meraProductId } = useParams();
 
   const data = eval(meraProductId);
-  console.log(data);
 
   return (
     <div className="flex flex-col justify-center items-center mt-8">
