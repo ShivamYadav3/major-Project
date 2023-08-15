@@ -2,10 +2,10 @@ import React from "react";
 
 function TrackOrder() {
   return (
-    <div className="flex items-center justify-center border h-[523px]">
-      <div className=" flex flex-col gap-y-10">
+    <div className="flex items-center justify-center border h-[517px]">
+      <div className=" flex flex-col justify-center gap-y-10 border h-60 p-11 rounded-3xl">
         <div>
-          <label htmlFor="" className="text-2xl">
+          <label htmlFor="" className="text-2xl inline-block w-40">
             Order No :{" "}
           </label>
           <input
@@ -15,7 +15,7 @@ function TrackOrder() {
           />
         </div>
         <div>
-          <label htmlFor="" className="text-2xl">
+          <label htmlFor="" className="text-2xl inline-block w-40">
             Mobile No :{" "}
           </label>
           <input
@@ -25,7 +25,7 @@ function TrackOrder() {
           />
         </div>
         <div className="flex justify-center items-center">
-          <button className="bg-slate-300 py-1 px-2 rounded-lg ml-2 text-lg font-medium">
+          <button className="bg-slate-300 py-1 px-2 rounded-lg ml-2 text-lg font-medium border  hover:text-sky-500">
             Show Details
           </button>
         </div>

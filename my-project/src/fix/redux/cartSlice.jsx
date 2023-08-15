@@ -10,7 +10,6 @@ const cartSlice = createSlice({
       const existingItem = state.items.find(
         (data) => data.service_id === action.payload.service_id
       );
-      // console.log(existingItem);
 
       if (existingItem) {
         existingItem.qty++;

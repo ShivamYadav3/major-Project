@@ -14,8 +14,8 @@ function PageLayout({ Product }) {
     <div className="flex flex-col gap-8 p-10">
       {Product.service_categories.map((item, index) => {
         return (
-          <div className="border p-5">
-            <div key={index} className="flex justify-between gap-2">
+          <div key={index} className="border p-5">
+            <div className="flex justify-between gap-2">
               <div>
                 {" "}
                 <div className="flex gap-8">

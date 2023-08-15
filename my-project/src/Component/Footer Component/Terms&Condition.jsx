@@ -2,16 +2,18 @@ import React from "react";
 
 function TermsCondition() {
   return (
-    <div className=" flex items-center justify-center border">
-      <div className=" flex flex-col gap-y-10 font-bold text-4xl">
-        <div className="flex justify-center">Terms & Conditions</div>
-        <p className="text-base text-lime-950">
-          Welcome to our technological platform ("the Platform"). By using our
-          services, you agree to comply with and be bound by the following terms
-          and conditions. Please read these terms carefully before using the
-          Platform. If you do not agree with any part of these terms, please
-          refrain from using our services.
-        </p>
+    <div className=" flex items-center justify-center border p-4">
+      <div className=" flex flex-col gap-5 font-bold text-4xl">
+        <div className="flex flex-col gap-5">
+          <div className="flex justify-center">Terms & Conditions</div>
+          <p className="text-base text-lime-950">
+            Welcome to our technological platform ("the Platform"). By using our
+            services, you agree to comply with and be bound by the following
+            terms and conditions. Please read these terms carefully before using
+            the Platform. If you do not agree with any part of these terms,
+            please refrain from using our services.
+          </p>
+        </div>
 
         <div>
           <h3 className="text-lg">1. Acceptance of Terms</h3>
@@ -22,6 +24,7 @@ function TermsCondition() {
             legally binding agreement between you and our firm.
           </p>
         </div>
+
         <div>
           <h3 className="text-lg">2. Services Offered</h3>
           <p className="text-sm">
@@ -32,6 +35,7 @@ function TermsCondition() {
             registered on our Platform.
           </p>
         </div>
+
         <div>
           <h3 className="text-lg">3. Service Bookings</h3>
           <p className="text-sm">
@@ -43,6 +47,7 @@ function TermsCondition() {
             times.
           </p>
         </div>
+
         <div>
           <h3 className="text-lg">4. Service Payments</h3>
           <p className="text-sm">
@@ -53,6 +58,7 @@ function TermsCondition() {
             booking.
           </p>
         </div>
+
         <div>
           <h3 className="text-lg">5. Cancellations and Refunds</h3>
           <p className="text-sm">

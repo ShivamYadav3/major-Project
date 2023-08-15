@@ -19,7 +19,7 @@ function Cart() {
   };
 
   return (
-    <div className=" flex items-center justify-center border p-8 min-h-[523px]">
+    <div className=" flex items-center justify-center border p-8 min-h-[517px]">
       <div className=" flex flex-col gap-y-10 font-bold text-4xl">
         {cartItems.length === 0 ? (
           <div> Your cart is empty</div>

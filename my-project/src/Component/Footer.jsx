@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className="font-semibold border bg-slate-300 h-10 flex justify-between px-10 py-5 items-center">
+    <div className="font-semibold border bg-gray-300 h-12 flex justify-between px-10 py-5 items-center">
       <Link to="/about">
         <div className=" hover:text-sky-500">About Us</div>
       </Link>

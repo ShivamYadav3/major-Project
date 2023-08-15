@@ -1,34 +1,40 @@
 import { useState } from "react";
 import Mapping from "./map";
-import {
-  HomeCleaningServices,
-  RepairsAndMaintenance,
-  saloon,
-} from "../fix/data";
 import Slider from "./slider";
+import { MainData } from "../fix/Main";
+import { useSelector } from "react-redux";
+import { useMemo } from "react";
 
 function Cards() {
+  const input = useSelector((store) => store.inputValue.value);
+
+  const filteredProducts = useMemo(() => {
+    const filteredItems = MainData.map((category) => ({
+      head: category.head,
+      data: category.data.filter((item) =>
+        item.title.toLowerCase().includes(input.toLowerCase())
+      ),
+    }));
+    return filteredItems;
+  }, [input]);
+
   return (
-    <div className="fragment">
-      <Slider />
-      <div className="text-center my-10">
-        <h2 className="font-bold text-3xl m-5">Saloon & Skin Care</h2>
-        <div className="flex flex-wrap justify-evenly gap-4">
-          <Mapping items={saloon} />
-        </div>
-      </div>
-
-      <div className="text-center my-10 gap-y-3">
-        <h2 className="font-bold text-3xl m-5"> Home Cleaning</h2>
-        <div className="flex flex-wrap justify-evenly gap-4">
-          <Mapping items={HomeCleaningServices} />
-        </div>
-      </div>
-
-      <div className="text-center my-10">
-        <h2 className="font-bold text-3xl m-5">Repairs and Maintenance</h2>
-        <div className="flex flex-wrap justify-evenly gap-4">
-          <Mapping items={RepairsAndMaintenance} />
+    <div>
+      {input.length == 0 && <Slider />}
+      <div>
+        <div className="text-center my-10">
+          {filteredProducts.map((item, i) => {
+            if (item.data.length > 0) {
+              return (
+                <div key={i}>
+                  <h2 className="font-bold text-3xl m-5">{item.head}</h2>
+                  <div className="flex flex-wrap justify-evenly gap-4">
+                    <Mapping items={item.data} />
+                  </div>
+                </div>
+              );
+            } else return;
+          })}
         </div>
       </div>
     </div>
