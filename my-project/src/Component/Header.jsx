@@ -61,7 +61,7 @@ const Header = () => {
               </svg>
             </span>
             <select className="focus:outline-none focus:border-sky-500 dark:text-black w-28 bg-gray-200">
-              <option value=""></option>
+              {/* <option value=""></option> */}
               <option value="Jabalpur">Jabalpur</option>
             </select>
           </div>

@@ -13,7 +13,7 @@ const Mapping = ({ items }) => {
                 src={items.image}
                 alt=""
               />
-              <p className="font-semibold">{items?.Price}</p>
+              {/* <p className="font-semibold">{items?.Price}</p> */}
             </div>
           </Link>
         );

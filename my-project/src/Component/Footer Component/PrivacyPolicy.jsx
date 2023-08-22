@@ -14,7 +14,7 @@ function PrivacyPolicy() {
 
       <div>
         <h3 className="text-lg">1. Information We Collect</h3>
-        <p className="text-sm">
+        <div className="text-sm">
           <div>
             Personal Information: This includes your name, email address,
             <br /> phone number, and other information you provide when creating
@@ -29,11 +29,11 @@ function PrivacyPolicy() {
             transactions on the Platform. <br /> However, we do not store credit
             card information on our servers.
           </div>
-        </p>
+        </div>
       </div>
       <div>
         <h3 className="text-lg">2. How We Use Your Information</h3>
-        <p className="text-sm">
+        <div className="text-sm">
           <div>
             To provide and improve our services, including processing service
             bookings and payments.
@@ -48,7 +48,7 @@ function PrivacyPolicy() {
             but only if you have provided your consent to receive such
             communications.
           </div>
-        </p>
+        </div>
       </div>
       <div>
         <h3 className="text-lg">3. Children's Privacy</h3>

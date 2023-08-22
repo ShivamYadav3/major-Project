@@ -1,6 +1,7 @@
 import React from "react";
 
 function AboutUs() {
+  if (true) throw new Error("AboutUs");
   return (
     <div className=" h-[517px] flex justify-start p-4 pt-6 border flex-col gap-y-6 font-bold text-4xl">
       <div className="text-center">AboutUs</div>

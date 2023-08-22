@@ -20,6 +20,7 @@ import SignUp from "./Component/header Component/SignUp";
 import ProductDetails from "./Component/Body/ProductDetails";
 import UserLogin from "./Component/header Component/UserLogin";
 import Logout from "./Component/header Component/Logout";
+import ErrorBoundary from "./fix/Error/ErrorBoundary";
 
 const router = createBrowserRouter([
   {

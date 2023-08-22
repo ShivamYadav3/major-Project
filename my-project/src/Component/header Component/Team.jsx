@@ -12,7 +12,6 @@ function Team() {
             key={items?.id}
             className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
           >
-            {console.log(items?.title)}
             <img className="rounded-t-lg h-52 " src={items?.image} alt="" />
 
             <div className="p-5">
