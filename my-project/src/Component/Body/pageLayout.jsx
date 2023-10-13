@@ -1,10 +1,18 @@
 import React from "react";
 import { addItem } from "../../fix/redux/cartSlice";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
+import store from "../../fix/store";
+import { useNavigate } from "react-router-dom";
 
 function PageLayout({ Product }) {
   const dispatch = useDispatch();
+  const isLogin = useSelector((state) => state.auth.isLogin);
+  const navigate = useNavigate();
+
   const HandleAddItems = (item) => {
+    if (!isLogin) {
+      navigate("/userLogin");
+    }
     const ok = { ...item, qty: 1 };
 
     dispatch(addItem(ok));

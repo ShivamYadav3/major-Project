@@ -1,6 +1,7 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { AddQ, RemoveQ, clearCart } from "../../fix/redux/cartSlice";
+import { AddQ, Amount, RemoveQ, clearCart } from "../../fix/redux/cartSlice";
+import { Link } from "react-router-dom";
 
 function Cart() {
   const cartItems = useSelector((store) => store.cart.items);
@@ -11,10 +12,6 @@ function Cart() {
     0
   );
 
-  const HandleClearCart = () => {
-    dispatch(clearCart());
-  };
-
   const AddQty = (data) => {
     dispatch(AddQ(data));
   };
@@ -23,52 +20,8 @@ function Cart() {
     dispatch(RemoveQ(data));
   };
 
-  const loadScript = (src1) => {
-    return new Promise((resolve) => {
-      const script = document.createElement("script");
-
-      script.src = src1;
-
-      script.onload = () => {
-        resolve(true);
-      };
-
-      script.onerror = () => {
-        resolve(false);
-      };
-
-      document.body.appendChild(script);
-    });
-  };
-
-  const displayRazorPay = async (amount) => {
-    const res = await loadScript(
-      "https://checkout.razorpay.com/v1/checkout.js"
-    );
-    if (!res) {
-      alert("you are offline check your connection");
-      return;
-    }
-
-    const options = {
-      key: "rzp_test_uv5yiT1eAXgJYm",
-      currency: "INR",
-      amount: finalPay * 100,
-      name: "Urban Services",
-      description: "thanks For purchasing",
-      image: "",
-      handler: function (response) {
-        HandleClearCart();
-        alert(response.razorpay_payment_id);
-        alert("payment Done");
-      },
-      prefill: {
-        name: "Shivam",
-      },
-    };
-
-    const razorpay = new window.Razorpay(options);
-    razorpay.open();
+  const HandleClearCart = () => {
+    dispatch(clearCart());
   };
 
   return (
@@ -108,12 +61,14 @@ function Cart() {
             >
               Clear Cart
             </button>
-            <button
-              onClick={() => displayRazorPay(finalPay)}
-              className="bg-slate-300 py-1 px-2 rounded-lg ml-2 font-medium text-lg w-40"
-            >
-              Pay Now
-            </button>
+            <Link to="/address">
+              <button
+                onClick={() => dispatch(Amount(finalPay))}
+                className="bg-slate-300 py-1 px-2 rounded-lg ml-2 font-medium text-lg w-40"
+              >
+                Purchase Now
+              </button>
+            </Link>
           </div>
         )}
       </div>

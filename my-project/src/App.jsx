@@ -7,7 +7,6 @@ import store from "./fix/store";
 import ErrorBoundary from "./fix/Error/ErrorBoundary";
 
 function App() {
-  console.log("reRender");
   return (
     <>
       <Provider store={store}>

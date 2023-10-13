@@ -14,11 +14,11 @@ const Slider = () => {
 
   return (
     <div className="flex justify-center items-center py-5">
-      <div className="w-3/4 h-80 border">
+      <div className="w-3/4 h-[400px] border">
         <img
           src={images[currentImage]}
           alt="Slider"
-          className="h-80 w-full object-cover"
+          className="object-cover h-full w-full"
         />
       </div>
     </div>

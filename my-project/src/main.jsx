@@ -21,6 +21,7 @@ import ProductDetails from "./Component/Body/ProductDetails";
 import UserLogin from "./Component/header Component/UserLogin";
 import Logout from "./Component/header Component/Logout";
 import ErrorBoundary from "./fix/Error/ErrorBoundary";
+import Address from "./Component/Body/Address";
 
 const router = createBrowserRouter([
   {
@@ -66,6 +67,10 @@ const router = createBrowserRouter([
       {
         path: "/partnerLoginForm",
         element: <PartnerLoginForm />,
+      },
+      {
+        path: "/address",
+        element: <Address />,
       },
       {
         path: "/sign-up",

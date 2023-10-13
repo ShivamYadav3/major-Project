@@ -35,16 +35,13 @@ function SignUp() {
       .then((userCredential) => {
         const user = userCredential;
         let userUniqueId = user.user.uid;
-        console.log(user.user.uid, "check");
         let UserName = userData.name;
         dispatch(setUserUniqueId(userUniqueId));
         dispatch(setUserName(UserName));
         dispatch(setIsLogin(true));
 
-        alert(`data submit successfully   ${user.user.email}`);
         navigate("/");
       })
-
       .catch((error) => {
         console.log(`something wrong ${error.message}}`);
       });
