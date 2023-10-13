@@ -3,7 +3,7 @@ import { app } from "../../firebaseConfig/firebaseConfiguration";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
-import { setIsLogin } from "./PartnerLoginForm/UserLoginSlice";
+import { setIsLogin, setUserName } from "./PartnerLoginForm/UserLoginSlice";
 import { useDispatch } from "react-redux";
 const auth = getAuth(app);
 
@@ -30,9 +30,10 @@ function UserLogin() {
         const user = userCredential.user;
 
         dispatch(setIsLogin(true));
-        alert("sucess");
+        dispatch(setUserName(userData.email));
+
+        alert("success");
         navigate("/");
-        console.log("login sucess", user);
       })
       .catch((error) => {
         alert(
